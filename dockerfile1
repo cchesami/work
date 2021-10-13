@@ -1,0 +1,8 @@
+# Create a dockerfile from ubuntu base image and install ansible in it
+
+  FROM ubuntu
+  MAINTAINER Cletus
+  RUN apt-get update
+  RUN apt-get install -y software-properties-common
+  RUN apt-get install -y ansible
+
